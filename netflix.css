@@ -1,0 +1,59 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("netflix.png");
+    background-size: cover;
+}
+.navbar{
+    margin: 25px 35px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#btn1{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    opacity: 0.8;
+
+}
+#btn2{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.description{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+.description h1{
+    font-size: 64px;
+    margin: 0px;
+}
+.description #para1{
+    font-size: 26px;
+    margin: 0px;
+}
+.description #para2{
+    font-size: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form input{
+    height: 70px;
+    width: 550px;
+}
+.signinform button{
+    width:200px;
+    height: 70px;
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    border: none;
+}
